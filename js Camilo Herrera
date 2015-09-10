@@ -1,0 +1,100 @@
+conversion galones
+
+
+var galones= prompt("ingrese la cantidad de galones");
+
+var litros=(galones/3.7854); 
+
+document.write(litros);
+
+
+
+conversion celcius a farenheit
+
+var celsius= prompt("ingrese la cantidad de grados celsius");
+
+
+var f=((9/5)*celsius + 32);
+
+alert("la cantidad de grados farenheit es:"+f);
+
+
+
+
+conversion  farenheit a celcius
+
+var f= prompt("ingrese la cantidad de grados farenheit");
+
+
+var celcius=(5*(f-32)/9);
+
+alert("la cantidad de grados farenheit es:"+celcius);
+
+
+
+
+conversion celcius a kelvin
+
+var cel= prompt("ingrese la cantidad de grados celsius");
+var kel=float;
+var kel=cel + 273;
+alert("la cantidad de grados kelvin es:");
+
+
+
+conversion kelvin a celcius 
+
+var kel= prompt("ingrese la cantidad de grados kelvin");
+var cel=kel - 273;
+alert("la cantidad de grados celcius es:"+cel);
+
+
+
+
+peso en la luna
+
+
+var peso= prompt("ingrese su peso");
+
+var pesol= peso *17/100;
+
+alert("su peso en la luna es:"+pesol);
+
+
+area del circulo 
+
+var circulo = prompt("ingrese el radio");
+
+var area=(3.1416*(circulo*circulo));
+
+alert("El area del circulo es:"+area);
+
+
+
+area del triangulo
+
+var base = prompt("ingrese la base");
+var altura = prompt("ingrese la altura");
+var area = (base*altura)/2;
+alert("el area del triangulo es:"+area);
+
+
+
+area del cuadrado:
+
+var lado = prompt("ingrese lado");
+var area = (lado*lado);
+alert("el area del cuadrado es:"+area);
+
+
+
+contador de vocales
+
+fr = prompt("ingrese su frase");
+var b=0;
+for(var a=0; a<fr.length;a++)
+{
+if(fr[a]=='a' || fr[a]=='e' || fr[a]=='i' || fr[a]=='o' || fr[a]=='u')
+b++;
+} 
+alert("La frase ingresa da es: " + fr + " y contiene : " + b+""+"vocales");
