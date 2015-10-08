@@ -1,0 +1,128 @@
+
+body {
+  
+    background-color:#D8D8D8;
+    font-family:'harrintong';
+}
+#caja {
+    position: absolute;
+    top: 50;
+    left: 90;
+    background-color:#E6E6E6;
+    border-radius:100px;  
+    color:#08088A;
+    width:550px;
+    height: 250px;
+    margin: 60px auto auto auto;
+    padding-bottom:12px;
+}
+#caja2 {
+    padding-top:22px
+}
+#borrar{
+    position: relative;
+    top: 190;
+    left: 120;
+   
+}
+#entrada {
+}
+#tarea {
+ 
+    font-size:20px;
+    font-family:'Open Sans', sans-serif;
+    height:56px;
+    width:311px;
+    border-radius:100px;
+    background-color:#F2F2F2;
+    border:15;
+    color:#00FFFF;
+    display:block;
+    padding-left:50px;
+   -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+#tarea:focus{
+  box-shadow: 0px 0px 30pt 10pt #DC0412;
+ background-color:#E50A2A; 
+  outline:none;
+}
+::-webkit-input-placeholder {
+    color: #0F100F;
+    font-style:italic;
+    /* padding-left:10px; */
+}
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #0F100F;
+    font-style:italic;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #0F100F;
+    font-style:italic;
+}
+:-ms-input-placeholder {
+    color: #0F100F;
+    font-style:italic;
+}
+header {
+    margin-top:0;
+    background-color:#D8D8D8;
+    width:338px;
+    height:48px;
+    padding-left:12px;
+}
+header h1 {
+    font-size:25px;
+    font-weight:300;
+    color:#F7FE2E;
+    line-height:48px;
+  width:50%;
+  display:inline;
+}
+header a{
+  
+  width:40%;
+  display:inline;
+  line-height:90px;
+}
+#formato {
+    position: relative;
+    top:70px;
+    left: 100;
+    background-color:#E6E6E6;
+    width:100px;
+    height:10px;
+    border-width:0px;
+    padding: 0px 12px 0px 12px;
+    font-size:0px;
+    color:#090102;
+
+}
+#lista {
+    position: relative;
+    top: 100;
+    left: 500;
+    width: 350px;
+    margin:auto;
+    font-size:19px;
+    font-weight:600;
+    color:#090102;
+}
+ul li {
+    background-color:#F70505;
+   text-align: center;
+    height:35px;
+    width:250px;
+    padding-left:12px;
+    border-radius: 100px;
+    margin:0 auto 40px auto;
+    line-height:20px;
+    list-style:20px;
+     overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
